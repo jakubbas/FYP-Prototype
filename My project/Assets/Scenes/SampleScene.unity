@@ -816,8 +816,11 @@ MonoBehaviour:
   playerCam: {fileID: 963194227}
   charController: {fileID: 0}
   lookXLimit: 45
-  weaponRange: 0
-  weaponInaccuracy: 0
+  weaponRange: 50
+  weaponHInaccuracy: 0.1
+  weaponVInaccuracy: 0
+  fireRate: 0.2
+  ammoCount: 30
 --- !u!143 &1494365020
 CharacterController:
   m_ObjectHideFlags: 0
